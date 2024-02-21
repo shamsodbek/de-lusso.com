@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #102A2A;
+    height: 100vh;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav_title{
+    color: white;
+    font-size: 34px;
+    padding-top: 15px;
+}
+.card_text{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.card_img{
+  
+    width: 294px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+.card{
+    width: 300px;
+    position: relative;
+    border: 2px solid #1d4e4e ;
+    align-items: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 10px rgb(179, 179, 79);
+    transition: 0.5s;
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+ 
+}

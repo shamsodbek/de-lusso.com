@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #102A2A;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav_title{
+    color: white;
+    font-size: 34px;
+    padding-top: 15px;
+}
+.labe{
+    border: 2px solid #307f7f;
+    width: 400px;
+    
+}
+.label_text{
+    color: white;
+    font-size: 18px;
+}
+.big_2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 70px;
+}
+.answer-variants__group .answer-variants__variant label {
+    padding: 0.8rem 1rem;
+    width: 100%;
+    text-align: left;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+}
+.control-label{
+    display: flex;
+}
+.label{
+     background: linear-gradient(90.09deg, #3800AF 0%, #BF7204 97.52%, #C27500 100%, #C27500 100%, red 100%);
+    display: flex;
+    gap: 20px;
+    width: 500px;
+    height: 100px;
+    padding: 16px;
+    align-items: center;
+    animation: unit 2s linear infinite;
+    transition: 0.5s;
+}
+@keyframes unit {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.label_text{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+.label a{
+    text-decoration: none;
+}
+.gif_img{
+    width: 50px;
+    animation: init 4s linear infinite; 
+}
+@keyframes init {
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.card_img_2{
+    width: 90px;
+}
+.card_text_2{
+    color: grey;
+    font-size: 28px;
+   
+    
+}
+.card_2{
+    background-color: gainsboro ;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    padding: 10px;
+    cursor:no-drop;
+    gap: 20px;
+    
+}
+.box_2{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-top: 150px;
+    margin-left: 45px;
+    align-items: center;
+    
+}

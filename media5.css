@@ -1,0 +1,100 @@
+@media (max-width:426px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login_title{
+        font-size: 8px;
+      }
+    .body{
+        overflow: hidden;
+    }
+    .login-box form button{
+        font-size: 12px;
+    }
+}
+@media (max-width:769px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+      }
+}
+@media (max-width:1024px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+      }
+}
+@media (max-width:2561px){
+    .login-box{
+        width: 700px;
+    padding: 100px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+      }
+}
+@media (max-width:1141px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 25px;
+      }
+}
+
+
+@media(max-width:376px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+      }
+
+}
+
+
+
+
+@media (max-width:321px){
+    .login-box{
+        width: 300px;
+    padding: 20px;
+    }
+    .login-box h1 {
+        margin: 0 0 30px;
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+      }
+}
